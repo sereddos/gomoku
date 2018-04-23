@@ -1,0 +1,44 @@
+.wrapper{
+	padding: 15px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.blue {
+    background: blue;
+}
+.gray {
+    background: gray;
+}
+
+.player {
+    margin-left: 5px;
+    position: relative;
+    bottom: -7px;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ddd;
+}
+
+.player:before,
+td:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.red:before {
+    background: red;
+    box-shadow: 0px 1px 6px #796060;
+}
+
+.black:before {
+    background: black;
+    box-shadow: 0px 1px 6px #796060;
+}
+
